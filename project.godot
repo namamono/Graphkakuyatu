@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Dot Editor"
+config/name="DotEditor"
 run/main_scene="res://src/scenes/Main.tscn"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
@@ -27,3 +27,7 @@ window/size/viewport_height=720
 [dotnet]
 
 project/assembly_name="Dot Editor"
+
+[gui]
+
+theme/custom_font="uid://des0tgtjvyn1y"

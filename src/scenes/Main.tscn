@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://mainscene"]
+
+[ext_resource type="Script" path="res://src/scenes/Main.gd" id="1_main"]
+[ext_resource type="PackedScene" uid="uid://hud" path="res://src/ui/HUD.tscn" id="2_hud"]
+[ext_resource type="PackedScene" uid="uid://propertypanel" path="res://src/ui/PropertyPanel.tscn" id="3_prop_panel"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_main")
+
+[node name="EdgesLayer" type="Node2D" parent="."]
+
+[node name="NodesLayer" type="Node2D" parent="."]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(576, 324)
+
+[node name="HUDLayer" type="CanvasLayer" parent="."]
+
+[node name="HUD" parent="HUDLayer" instance=ExtResource("2_hud")]
+
+[node name="PropertyPanel" parent="HUDLayer" instance=ExtResource("3_prop_panel")]
+visible = false

@@ -50,3 +50,41 @@ Godot 4.x で動作する、DOT言語ライクなグラフ構造のビジュア�
     *   操作を間違えた場合でも、履歴をたどって状態を戻すことができます。
 *   **Export**:
     *   現在のグラフ情報を `.dot` 形式などのファイルとして保存します（実装状況に依存）。
+ 
+*   ## Licenses & Credits
+
+This software uses the following open-source libraries and fonts:
+
+### Godot Engine
+This game uses Godot Engine, available under the following license:
+
+Copyright (c) 2014-present Godot Engine contributors (see AUTHORS.md).
+Copyright (c) 2007-2014 Juan Linietsky, Ariel Manzur.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+### Noto Sans JP
+This software uses the Noto Sans JP font, licensed under the SIL Open Font License, Version 1.1.
+
+Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
+Copyright 2014-2021 Google Inc. All Rights Reserved.
+
+(The full text of the license can be found in the OFL.txt file included with this distribution.)
